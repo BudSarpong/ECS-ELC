@@ -1,7 +1,6 @@
 
 
 variable "aws_region" { }
-variable "environment" {}
 variable "project_name" { }
 variable "vpc_cidr" { }
 variable "instance_tenancy" {  }

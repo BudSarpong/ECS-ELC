@@ -14,7 +14,7 @@ data "template_file" "ELC-template" {
     app_port       = var.app_port
     fargate_cpu    = var.fargate_cpu
     fargate_memory = var.fargate_memory
-    aws_region     = var.region
+    aws_region     = var.aws_region
   }
 }
 
